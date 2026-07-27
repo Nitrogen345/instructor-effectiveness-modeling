@@ -1,15 +1,14 @@
 # instructor-effectiveness-modeling
 Machine learning project for instructor effectiveness modeling using learner outcomes, engagement, and feedback data in an EdTech setting.
 
-# Instructor Effectiveness Modeling (EdTech)
+# Instructor Effectiveness Modeling.
 
 ## Overview
 
-This project was completed as part of the Data Science / AI Content Specialist Intern assignment for Accredian.
+This project was completed as part of the Data Science.
 
 The objective is to analyze instructor performance using learner outcomes, engagement metrics, and learner feedback collected across multiple course batches. Since instructor effectiveness labels were not provided, a composite Instructor Effectiveness Score was designed and used to classify instructors into Low, Medium, and High effectiveness tiers.
 
----
 
 ## Dataset
 
@@ -24,7 +23,6 @@ Each record contains:
 - Engagement metrics
 - Feedback metrics
 
----
 
 ## Project Workflow
 
@@ -40,7 +38,6 @@ Each record contains:
 10. Feature Importance Analysis
 11. Business Insights & Limitations
 
----
 
 ## Models Used
 
@@ -56,7 +53,6 @@ Models were compared using:
 - F1-score
 - Confusion Matrix
 
----
 
 ## Feature Engineering
 
@@ -70,7 +66,6 @@ Models were compared using:
 - Included the number of batches taught (`batch_count`) as an additional feature.
 - Created effectiveness tiers using quantile-based binning.
 
----
 
 ## Key Findings
 
@@ -79,7 +74,6 @@ Models were compared using:
 - Engagement and feedback metrics provided complementary predictive information.
 - Random Forest offered strong predictive performance while providing interpretable feature importance.
 
----
 
 ## Limitations
 
@@ -87,7 +81,7 @@ Models were compared using:
 - The model does not account for course difficulty, learner demographics, or instructor experience.
 - Results should be used as decision-support rather than as the sole basis for instructor evaluation.
 
----
+
 
 ## Technologies Used
 
@@ -99,7 +93,6 @@ Models were compared using:
 - Scikit-learn
 - Jupyter Notebook
 
----
 
 ## Repository Structure
 
@@ -108,7 +101,6 @@ Models were compared using:
 ├── README.md
 ```
 
----
 
 ## Author
 
