@@ -1,7 +1,7 @@
 # instructor-effectiveness-modeling
 Machine learning project for instructor effectiveness modeling using learner outcomes, engagement, and feedback data.
 
-# Instructor Effectiveness Modeling.
+# Instructor Effectiveness Modeling
 
 ## Overview
 
